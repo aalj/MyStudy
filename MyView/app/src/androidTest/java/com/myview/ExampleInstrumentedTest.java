@@ -1,4 +1,4 @@
-package com.xuetu.myview;
+package com.myview;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.xuetu.myview", appContext.getPackageName());
+        assertEquals("com.myview", appContext.getPackageName());
     }
 }

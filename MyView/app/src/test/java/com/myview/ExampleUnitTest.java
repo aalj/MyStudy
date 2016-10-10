@@ -1,4 +1,4 @@
-package com.xuetu.myview;
+package com.myview;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.myview.widgh;
+package com.myview.widght;
 
 import android.content.Context;
 import android.graphics.Canvas;

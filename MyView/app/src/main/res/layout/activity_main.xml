@@ -10,8 +10,11 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.myview.MainActivity">
 
-    <com.myview.widght.MyView2
+    <com.myview.widght.OperatingCanvas
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/myView" />
+        android:id="@+id/myView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

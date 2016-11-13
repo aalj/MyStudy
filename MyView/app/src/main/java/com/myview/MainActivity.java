@@ -13,17 +13,17 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.sectorview);
-        this.checkview = (CheckView) findViewById(R.id.checkview);
+        setContentView(R.layout.sample_clock);
+//        this.checkview = (CheckView) findViewById(R.id.checkview);
     }
 
 
-    public void click(View view) {
-        int id = view.getId();
-        if(id== R.id.show){
-            checkview.check();
-        }else if(id == R.id.hide){
-            checkview.unCheck();
-        }
-    }
+//    public void click(View view) {
+//        int id = view.getId();
+//        if(id== R.id.show){
+//            checkview.check();
+//        }else if(id == R.id.hide){
+//            checkview.unCheck();
+//        }
+//    }
 }

@@ -3,6 +3,7 @@ package com.myview.widght;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
+import android.graphics.Rect;
 import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.view.View;
@@ -14,8 +15,10 @@ import android.view.View;
 public class OperatingCanvas extends View {
 
     private Paint mPaint;
+    private Paint textPaint;
     private int mWight;
     private int mHeight;
+
     public OperatingCanvas(Context context) {
         super(context);
         init();
@@ -40,19 +43,31 @@ public class OperatingCanvas extends View {
         mPaint.setAntiAlias(true);
         mPaint.setFilterBitmap(true);
         mPaint.setStrokeWidth(5);
+
+
+        textPaint = new Paint();
+        textPaint.setStyle(Paint.Style.STROKE);
+        textPaint.setColor(0xffff0000);
+        textPaint.setAntiAlias(true);
+        textPaint.setFilterBitmap(true);
+        textPaint.setTextSize(30);
+        textPaint.setTextAlign(Paint.Align.CENTER);
+
+
     }
 
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
         super.onSizeChanged(w, h, oldw, oldh);
-        mWight = w ;
+        mWight = w;
         mHeight = h;
     }
 
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        canvas.translate(mWight/2,mHeight/2);
+        canvas.translate(mWight / 2, mHeight / 2);
+        canvas.save();
         //=======================体验canvas的位移（translate）
 //        canvas.drawCircle(100,100,50,mPaint);
 //        canvas.translate(100,100);
@@ -80,24 +95,41 @@ public class OperatingCanvas extends View {
 //            canvas.scale(0.9f,0.9f);
 //            canvas.drawRoundRect(rectF,0,0,mPaint);
 //        }
+
+
+
+
         //canvas 的旋转（画一个表盘）
-        mPaint.setStrokeWidth(3);
-        canvas.drawPoint(0,0,mPaint);
-        mPaint.setStrokeWidth(1);
+//        mPaint.setStrokeWidth(3);
+//        canvas.drawPoint(0, 0, mPaint);
+//        mPaint.setStrokeWidth(1);
         int r = 200;
         int r2 = 220;
-        canvas.drawCircle(0,0,r,mPaint);
-        canvas.drawCircle(0,0,r2,mPaint);
-        for (int i= 0;i<60;i++){
-            if(i%5==0){
-                canvas.drawLine(0,-r+10,0,-r2,mPaint);
+        canvas.drawCircle(0, 0, r, mPaint);
+        canvas.drawCircle(0, 0, r2, mPaint);
+
+
+        for (int i = 0; i < 60; i++) {
+            if (i % 5 == 0) {
+                canvas.save();
+                //获取文字的大小使用Rect
+                Rect rect = new Rect();
+                int number = i == 0?12:(i/5);
+                textPaint.getTextBounds(number+"",0,(number+"").length(),rect);
+                canvas.translate(0,-r+20+((rect.bottom-rect.top)/2));
+                canvas.rotate(-6*i);
+                canvas.drawText(number+"",0,(rect.bottom-rect.top)/2,textPaint);
+                canvas.restore();
+                canvas.drawLine(0, -r + 10, 0, -r2, mPaint);
+            } else {
+                canvas.drawLine(0, -r2, 0, -r, mPaint);
             }
-            else {
-                canvas.drawLine(0,-r2,0,-r,mPaint);
-            }
+
+
             canvas.rotate(6);
         }
 
+        canvas.restore();
 
     }
 }

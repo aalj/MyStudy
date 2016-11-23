@@ -69,7 +69,7 @@ public class SectorView extends View {
     private void initPaint(Context context) {
         similation();
         mContext = context;
-        paint.setColor(ContextCompat.getColor(mContext,R.color.view_paint_color));
+        paint.setColor(ContextCompat.getColor(mContext,R.color.colorAccent));
         paint.setStyle(Paint.Style.STROKE);
 
     }

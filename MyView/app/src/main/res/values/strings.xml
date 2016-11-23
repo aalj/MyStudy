@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">MyView</string>
-    <string name="appwidget_text">EXAMPLE</string>
-    <string name="add_widget">Add widget</string>
+    <string name="app_name">Rotation3D</string>
+    <string name="action_settings">Settings</string>
 </resources>

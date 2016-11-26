@@ -4,14 +4,10 @@
     android:layout_height="match_parent">
 
     <com.myview.widght.Clock
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:background="#ccc"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
         android:paddingBottom="40dp"
-        android:paddingLeft="20dp"
-        app:exampleColor="#33b5e5"
-        app:exampleDimension="24sp"
-        app:exampleDrawable="@android:drawable/ic_menu_add"
-        app:exampleString="Hello, Clock" />
+        app:clockRadius="400"
+        android:paddingLeft="20dp"/>
 
 </FrameLayout>

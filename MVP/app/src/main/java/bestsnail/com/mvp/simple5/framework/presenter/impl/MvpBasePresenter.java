@@ -48,6 +48,10 @@ public class MvpBasePresenter<V extends MvpView> implements MvpPresenter<V> {
 		return false;
 	}
 
+	/**
+	 * 绑定VIew
+	 * @param view
+     */
 	@SuppressWarnings("unchecked")
 	@Override
 	public void attachView(V view) {
@@ -59,6 +63,9 @@ public class MvpBasePresenter<V extends MvpView> implements MvpPresenter<V> {
 				.getClass().getInterfaces(), invocationHandler);
 	}
 
+	/**
+	 * 解除绑定的View
+	 */
 	@Override
 	public void dettachView() {
 		if (this.weakView != null) {
@@ -67,6 +74,9 @@ public class MvpBasePresenter<V extends MvpView> implements MvpPresenter<V> {
 		}
 	}
 
+	/**
+	 * 动态代理，不知道具体作用
+	 */
 	private class MvpViewInvocationHandler implements InvocationHandler {
 
 		private MvpView mvpView;

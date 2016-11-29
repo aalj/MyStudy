@@ -194,13 +194,9 @@ public class Clock extends View {
         //画刻度
         //画数字
         drawKeDu(canvas);
-            
         //画指针
         drawPointer(canvas);
-        
-        
         canvas.restore();
-    
         postInvalidateDelayed(100);
     }
     

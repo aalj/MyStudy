@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.sample_clock);
+        setContentView(R.layout.pathdemo);
 
 //        this.checkview = (CheckView) findViewById(R.id.checkview);
     }

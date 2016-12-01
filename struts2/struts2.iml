@@ -17,6 +17,9 @@
             <file>jar://$MODULE_DIR$/lib/struts2-core.jar!/struts-default.xml</file>
             <file>file://$MODULE_DIR$/src/com/bestsnail/1/user.xml</file>
             <file>file://$MODULE_DIR$/src/com/bestsnail/a2/userAction.xml</file>
+            <file>file://$MODULE_DIR$/src/com/bestsnail/upload/upload.xml</file>
+            <file>file://$MODULE_DIR$/src/com/bestsnail/a1/user.xml</file>
+            <file>file://$MODULE_DIR$/src/com/bestsnail/download/download.xml</file>
           </fileset>
           <propertiesKeys disabled="false" />
         </configuration>

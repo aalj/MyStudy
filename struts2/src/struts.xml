@@ -7,7 +7,7 @@
 <struts>
    <!--全局配置-->
    <!--修改Struts默认的访问后缀-->
-   <constant name="struts.action.extension" value="aaction,,"/>
+   <constant name="struts.action.extension" value="action,,"/>
    <!--请求编码设置-->
    <constant name="struts.i18n.encoding" value="UTF-8"/>
    <!--修改xml自动重新加载-->
@@ -18,4 +18,6 @@
 
    <include file="com/bestsnail/a1/user.xml"/>
    <include file="com/bestsnail/a2/userAction.xml"/>
+   <include file="com/bestsnail/upload/upload.xml"/>
+   <include file="com/bestsnail/download/download.xml"/>
 </struts>

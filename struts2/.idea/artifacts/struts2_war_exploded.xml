@@ -19,6 +19,9 @@
           <element id="file-copy" path="$PROJECT_DIR$/lib/commons-lang.jar" />
           <element id="file-copy" path="$PROJECT_DIR$/lib/struts2-core.jar" />
           <element id="file-copy" path="$PROJECT_DIR$/lib/commons-fileupload.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/jstl-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/standard-1.1.2.jar" />
+          <element id="library" level="project" name="lib" />
         </element>
       </element>
     </root>

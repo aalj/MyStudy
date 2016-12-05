@@ -6,27 +6,15 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/bestsnail/a3/bean/User.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/bestsnail/a3/demo/User.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/bestsnail/a3/demo/UserAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bestsnail/a3/DaraFormateRegiest-conversion.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bestsnail/a3/DataFormateRegiest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bestsnail/a3/MyConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bestsnail/a3/bean/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bestsnail/a3/dataformate.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bestsnail/a3/demo/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bestsnail/a3/demo/UserAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/a3/datashow.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/bestsnail/a3/dataformate.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/demo/error.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/a3/regiest.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demo/register.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/bestsnail/download/Download.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/bestsnail/download/Download.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bestsnail/download/Download.java" afterPath="$PROJECT_DIR$/src/com/bestsnail/download/Download.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bestsnail/download/download.xml" afterPath="$PROJECT_DIR$/src/com/bestsnail/download/download.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/struts.xml" afterPath="$PROJECT_DIR$/src/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts2.iml" afterPath="$PROJECT_DIR$/struts2.iml" />
+    </list>
+    <list id="47b9b4e7-b53a-4c29-8ac7-15235cf32464" name="Failed commit: Default" comment="jsp表单提交类型转换">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/bestsnail/a3/dataformate.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/bestsnail/download/download.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/bestsnail/download/download.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/struts.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/page/list.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/page/list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/demo/error.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/demo/error.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/demo/register.jsp" afterPath="$PROJECT_DIR$/web/demo/register.jsp" />
     </list>
     <ignored path="struts2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -849,7 +837,7 @@
       <workItem from="1480748194277" duration="9228000" />
       <workItem from="1480763248010" duration="1464000" />
       <workItem from="1480940873852" duration="7253000" />
-      <workItem from="1480948662134" duration="300000" />
+      <workItem from="1480948662134" duration="444000" />
     </task>
     <task id="LOCAL-00001" summary="struts2&#10;">
       <created>1480158804408</created>
@@ -879,11 +867,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480750220514</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="jsp表单提交类型转换">
+      <created>1480949047826</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1480949047826</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52445000" />
+    <option name="totallyTimeSpent" value="52589000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -945,7 +940,8 @@
     <MESSAGE value="struts2 文件上传" />
     <MESSAGE value="struts2 文件上传下载的配置文件" />
     <MESSAGE value="添加jstl支持" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加jstl支持" />
+    <MESSAGE value="jsp表单提交类型转换" />
+    <option name="LAST_COMMIT_MESSAGE" value="jsp表单提交类型转换" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1215,6 +1211,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1222,6 +1219,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="168" column="32" selection-start-line="168" selection-start-column="32" selection-end-line="168" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1261,6 +1259,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1268,6 +1267,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="22" column="32" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1275,6 +1275,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1325,6 +1326,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
           <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1332,6 +1334,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>

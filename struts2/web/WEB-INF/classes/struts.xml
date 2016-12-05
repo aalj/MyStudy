@@ -20,4 +20,5 @@
    <include file="com/bestsnail/a2/userAction.xml"/>
    <include file="com/bestsnail/upload/upload.xml"/>
    <include file="com/bestsnail/download/download.xml"/>
+   <include file="com/bestsnail/a3/dataformate.xml"/>
 </struts>

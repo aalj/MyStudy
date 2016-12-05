@@ -68,7 +68,7 @@ public class Download extends ActionSupport {
         return "downloadResult";
     }
 
-    public InputStream getAttrInputStream(){
+    public InputStream getAttrInputStr(){
         InputStream inputStream = null;
         try{
             File f = new File(path+"/"+minghzi);

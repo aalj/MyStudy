@@ -28,14 +28,9 @@
                 <c:url var="url" value="download_downResule.action">
                     <c:param name="minghzi" value="${filena}"></c:param>
                 </c:url>
-
                 <a href="${url}">下载</a>
-                
-                
             </td>
         </tr>
-
-
     </c:forEach>
 
 </table>

@@ -20,6 +20,7 @@
             <file>file://$MODULE_DIR$/src/com/bestsnail/upload/upload.xml</file>
             <file>file://$MODULE_DIR$/src/com/bestsnail/a1/user.xml</file>
             <file>file://$MODULE_DIR$/src/com/bestsnail/download/download.xml</file>
+            <file>file://$MODULE_DIR$/src/com/bestsnail/a3/dataformate.xml</file>
           </fileset>
           <propertiesKeys disabled="false" />
         </configuration>

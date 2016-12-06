@@ -15,5 +15,4 @@ hs_err_pid*
 /.idea
 /out
 /web/WEB-INF/classes
-将删除 out/
-将删除 web/upload/
+

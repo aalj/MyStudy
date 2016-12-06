@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+   <!--全局配置-->
+   <!--修改Struts默认的访问后缀-->
+   <constant name="struts.action.extension" value="action,,"/>
+   <!--请求编码设置-->
+   <constant name="struts.i18n.encoding" value="UTF-8"/>
+   <!--修改xml自动重新加载-->
+   <constant name="struts.configuration.xml.reload" value="true"/>
+   <!--动态方法调用(默认是不开启的)-->
+   <constant name="struts.enable.DynamicMethodInvocation" value="false"/>
+
+
+   <include file="com/bestsnail/a1/user.xml"/>
+   <include file="com/bestsnail/a2/userAction.xml"/>
+   <include file="com/bestsnail/upload/upload.xml"/>
+   <include file="com/bestsnail/download/download.xml"/>
+   <include file="com/bestsnail/a3/dataformate.xml"/>
+</struts>

@@ -12,6 +12,13 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
+<<<<<<< HEAD
 /.idea/
 .gitignore
 web/WEB-INF/classes/
+=======
+/.idea
+/out
+/web/WEB-INF/classes
+/.idea/workspace.xml
+>>>>>>> cdde20a8b271ce594d41b2d79745b54d44318669

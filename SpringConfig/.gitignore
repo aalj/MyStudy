@@ -30,7 +30,4 @@ buildNumber.properties
 !/.mvn/wrapper/maven-wrapper.jar
 
 .gitignore
-.idea/
-SpringConfig.iml
-pom.xml
-src/
+

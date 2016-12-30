@@ -70,8 +70,7 @@ public class MainController {
     @RequestMapping("/getURL/{a}/{b}")
     public String getUrlData(Model model,
                              @PathVariable(value = "a")String A,
-                             @PathVariable(value = "b")String B
-    ){
+                             @PathVariable(value = "b")String B){
 
         System.out.println("A = " + A);
         System.out.println("B = " + B);
@@ -88,6 +87,24 @@ public class MainController {
     @ResponseBody
     public String sendString(){
         return "safsdfasdf";
+    }
+
+
+    @RequestMapping(value = "/login")
+    public String userLogin(Model model ,
+                            @RequestParam(name = "username",defaultValue = "null")String userName,
+                            @RequestParam(name = "pd",defaultValue = "null") String pd){
+        System.out.println("userName    "+userName);
+        System.out.println("pd    "+pd);
+        if("null".equals(userName)||"null".equals(pd)){
+            return "redirect:/";
+        }
+
+
+        model.addAttribute("user",userName);
+        model.addAttribute("pw",pd);
+
+        return "userInfo";
     }
 
 

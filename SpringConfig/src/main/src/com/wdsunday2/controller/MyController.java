@@ -14,7 +14,7 @@ public class MyController {
 
     @RequestMapping(method = RequestMethod.GET)
     public String helloWorldController(){
-        return "";
+        return "first";
     }
 
 

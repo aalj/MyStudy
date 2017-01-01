@@ -6,6 +6,7 @@
 
 <struts>
     <package name="data_regiest" extends="struts-default" namespace="/">
+
         <action name="data_*" class="com.bestsnail.a3.DataFormateRegiest" method="regiest">
             <result  name="regiest" >/WEB-INF/a3/datashow.jsp</result>
         </action>

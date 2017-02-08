@@ -21,4 +21,5 @@
    <include file="com/bestsnail/upload/upload.xml"/>
    <include file="com/bestsnail/download/download.xml"/>
    <include file="com/bestsnail/a3/dataformate.xml"/>
+   <include file="com/bestsnail/MyIntercetor/intercetor_struts.xml"/>
 </struts>

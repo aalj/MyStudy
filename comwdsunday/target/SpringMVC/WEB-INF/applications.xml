@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+
+    <!--http://blog.csdn.net/ydwuli06/article/details/6993219-->
+    <!--applicationContext.xml的<context:component-scan>
+    标签用途比想象中的还要实用
+    有了<context:component-scan>，
+    另一个<context:annotation-config/>标签根本可以移除掉，因為已经包含进去了。
+    原本我survery Spring3通常只配置成
+    <context:component-scan base-package="com.foo.bar"/>，
+    意即在base-package下尋找有@Component和@Configuration的target Class。-->
+
+
+    <!--<context:component-scan>提供两个子标签：
+    <context:include-filter>和<context:exclude-filter>各代表引入和排除的过滤。
+    而上例把use-default-filters属性设为false，
+    意即在base-package所有被宣告为@Component和@Configuration等target Class不予注册为bean，
+    由filter子标签代劳。-->
+    <context:component-scan base-package="com.wdsunday" />
+
+    <!--加载一些设置的配置文件-->
+    <!--<context:property-placeholder location="file:${}/*.properties" file-encoding="UTF-8"/>-->
+
+
+
+
+</beans>

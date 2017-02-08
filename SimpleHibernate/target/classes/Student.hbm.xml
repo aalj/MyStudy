@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.wdsunday.Student" table="student">
+        <id name="sid" column="sid">
+            <generator class="native"/>
+        </id>
+        <property name="stuname" column="name"/>
+        <set name="courses" table="stu_cou" cascade="save-update">
+            <!--设置中间表的外键名称-->
+            <key column="sid"  ></key>
+            <many-to-many class="com.wdsunday.Course" column="cid"/>
+        </set>
+    </class>
+
+
+</hibernate-mapping>

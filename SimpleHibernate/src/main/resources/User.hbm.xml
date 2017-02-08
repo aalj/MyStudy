@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.wdsunday.UserEntiry" >
+        <id name="uid" type="java.lang.Integer">
+            <generator class="native"/>
+        </id>
+        <property name="name" column="name" type="java.lang.String"/>
+        <set name="orders" cascade="all-delete-orphan">
+            <key column="uid"></key>
+            <one-to-many class="com.wdsunday.OrderEntiry"/>
+        </set>
+    </class>
+
+</hibernate-mapping>

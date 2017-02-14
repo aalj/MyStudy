@@ -10,9 +10,7 @@
     <!--设置静态资源-->
     <!--检查访问url访问的是否是静态资源,如果是直接交给相应的默认的Servlet处理,否者交给Spring转交处理-->
     <mvc:default-servlet-handler/>
-    <bean class="org.springframework.http.converter.StringHttpMessageConverter">
-        <property name="supportedMediaTypes" value = "text/plain;charset=UTF-8" />
-    </bean>
+
     <!--设置开启注解-->
     <mvc:annotation-driven/>
 

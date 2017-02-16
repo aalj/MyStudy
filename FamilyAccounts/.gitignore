@@ -1,0 +1,22 @@
+# Created by .ignore support plugin (hsz.mobi)
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+!/.mvn/wrapper/maven-wrapper.jar
+将删除 .gitignore
+将删除 src/main/test/
+将删除 target/FamilyAccounts-1.0-SNAPSHOT/WEB-INF/classes/com/wdsunday/service/UsrServiceImpl.class
+将删除 target/FamilyAccounts-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties
+将删除 target/FamilyAccounts-1.0-SNAPSHOT/WEB-INF/lib/junit-jupiter-api-5.0.0-M3.jar
+将删除 target/FamilyAccounts-1.0-SNAPSHOT/WEB-INF/lib/junit-platform-commons-1.0.0-M3.jar
+将删除 target/FamilyAccounts-1.0-SNAPSHOT/WEB-INF/lib/opentest4j-1.0.0-M1.jar
+将删除 target/FamilyAccounts-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.19.jar
+将删除 target/classes/com/wdsunday/service/UsrServiceImpl.class
+将删除 target/classes/log4j.properties
+将删除 target/generated-sources/

@@ -71,8 +71,6 @@
     </bean>
 
 
-
-
     <!-- 声明式事务管理 -->
     <!-- 配置事务管理器 -->
     <bean id="hibernateTrxManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">

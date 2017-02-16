@@ -3,15 +3,15 @@ package com.wdsunday.dao.entity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 
-import javax.persistence.Column;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
+import java.io.Serializable;
 
 /**
  * Created by liangjun on 2017/2/14.
  */
+@Entity
 @Table(name = "user")
-public class User {
+public class User implements Serializable {
     @Id()
     @Column(name = "ID" ,length = 32)
     private Long id;

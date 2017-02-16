@@ -8,7 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 /**
  * Created by liangjun on 2017/2/14.
  */
-@Transactional
+//@Transactional
 public interface UserDao extends BaseDao<User> {
 
 

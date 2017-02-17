@@ -15,7 +15,7 @@ import java.lang.reflect.Type;
 public class BaseDaoImpl<T> extends HibernateDaoSupport implements BaseDao<T> {
 
 
-    @Resource(name = "sessionFactory")
+    @Autowired
     public void setSessionFactoryOverride(SessionFactory sessionFactory) {
         super.setSessionFactory(sessionFactory);
     }

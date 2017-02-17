@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="comwdsunday:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="SpringMVC.war">
-      <element id="artifact" artifact-name="comwdsunday:war exploded" />
-    </root>
-  </artifact>
-</component>

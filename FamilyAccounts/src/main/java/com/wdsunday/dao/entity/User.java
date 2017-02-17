@@ -1,5 +1,6 @@
 package com.wdsunday.dao.entity;
 
+import com.wdsunday.dao.base.BaseTxVersionEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 
@@ -10,9 +11,10 @@ import java.io.Serializable;
  * Created by liangjun on 2017/2/14.
  */
 @Entity
-@Table(name = "user")
+@Table(name = "myuser")
 public class User implements Serializable {
     @Id()
+    @GeneratedValue(strategy=GenerationType.AUTO)
     @Column(name = "ID" ,length = 32)
     private Long id;
     @Column(name = "NAME",length = 20)

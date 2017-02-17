@@ -12,12 +12,12 @@ import javax.annotation.Resource;
  * Created by liangjun on 2017/2/14.
  */
 @Service
-@Transactional
+//@Transactional
 public class UsrServiceImpl implements UsrService {
     @Autowired
-    UserDao userDaoimpl;
+    UserDao userDao;
 
     public void saveUser(User user){
-        userDaoimpl.saveUser(user);
+        userDao.saveUser(user);
     }
 }

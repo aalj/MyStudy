@@ -27,7 +27,10 @@ public class TestDemo {
     @ResponseBody
     public String index(){
 //        userDao.save(new User());
-        usrServiceImpl.saveUser(new User());
+        User user = new User();
+        user.setName("abc");
+        user.setAge("120");
+        usrServiceImpl.saveUser(user);
         System.out.println("ceshi ");
         return  "中文论码";
     }

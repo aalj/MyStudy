@@ -1,16 +1,17 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
         "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>家庭财务管理系统</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="../../css/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body topmargin="0" leftmargin="0">
 <table width="100%" height="595" border="0" cellpadding="0" cellspacing="0">
     <tr>
-        <td height="81"><img src="images/index_01.gif" width="100%" height="81"></td>
+        <td height="81"><img src="../../images/index_01.gif" width="100%" height="81"></td>
     </tr>
     <tr>
         <td height="512" valign="top" bgcolor="#D0CCCC">
@@ -19,18 +20,18 @@
                     <td width="20%" height="272" align="center" valign="top">
                         <table width="108" border="0" cellpadding="0" cellspacing="0" class="mar004">
                             <tr>
-                                <td height="41" align="left" valign="bottom" background="images/index_02.gif">
+                                <td height="41" align="left" valign="bottom" background="../../images/index_02.gif">
                                     <div class="mar006"><span class="text003">用户名：</span><span
                                             class="text004">Admin</span></div>
                                 </td>
                             </tr>
                             <tr>
-                                <td height="433" align="center" valign="top" background="images/index_03.gif"
+                                <td height="433" align="center" valign="top" background="../../images/index_03.gif"
                                     class="bg02">
                                     <table width="152" border="0" cellpadding="0" cellspacing="0" class="mar005">
                                         <tr>
-                                            <td height="41" align="left" background="images/index_09.gif" id="td1"><a
-                                                    href="account/list.html" target="mainframe"
+                                            <td height="41" align="left" background="../../images/index_09.gif" id="td1"><a
+                                                    href="../../account/list.html" target="mainframe"
                                                     onClick="change1(document.all.td1);change2(document.all.a1);"
                                                     id="a1" class="tex001">
                                                 <div class="mar007">账簿管理</div>
@@ -40,8 +41,8 @@
                                             <td height="20">&nbsp;</td>
                                         </tr>
                                         <tr>
-                                            <td height="41" align="left" background="images/index_06.gif" id="td2"><a
-                                                    href="user/list.html" target="mainframe"
+                                            <td height="41" align="left" background="../../images/index_06.gif" id="td2"><a
+                                                    href="../../user/list.html" target="mainframe"
                                                     onClick="change1(document.all.td2);change2(document.all.a2);"
                                                     id="a2" class="tex002">
                                                 <div class="mar008">家庭成员管理</div>
@@ -51,8 +52,8 @@
                                             <td height="20">&nbsp;</td>
                                         </tr>
                                         <tr>
-                                            <td height="41" background="images/index_06.gif" align="left" id="td3"><a
-                                                    href="item/list.html" target="mainframe" class="tex002" id="a3"
+                                            <td height="41" background="../../images/index_06.gif" align="left" id="td3"><a
+                                                    href="../../item/list.html" target="mainframe" class="tex002" id="a3"
                                                     onClick="change1(document.all.td3);change2(document.all.a3);">
                                                 <div class="mar008">收支项目管理</div>
                                             </a></td>
@@ -61,8 +62,8 @@
                                             <td height="20">&nbsp;</td>
                                         </tr>
                                         <tr>
-                                            <td height="41" background="images/index_06.gif" align="left" id="td4"><a
-                                                    href="report/bbtj.html" target="mainframe" class="tex002" id="a4"
+                                            <td height="41" background="../../images/index_06.gif" align="left" id="td4"><a
+                                                    href="../../report/bbtj.html" target="mainframe" class="tex002" id="a4"
                                                     onClick="change1(document.all.td4);change2(document.all.a4);">
                                                 <div class="mar007">报表统计</div>
                                             </a></td>
@@ -71,7 +72,7 @@
                                             <td height="20">&nbsp;</td>
                                         </tr>
                                         <tr>
-                                            <td height="41" background="images/index_06.gif" align="left"><a
+                                            <td height="41" background="../../images/index_06.gif" align="left"><a
                                                     href="javascript:window.close();" class="tex002">
                                                 <div class="mar007">退出系统</div>
                                             </a></td>
@@ -112,18 +113,18 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td valign="top"><img src="images/index_08.gif" width="180" height="41"></td>
+                                <td valign="top"><img src="../../images/index_08.gif" width="180" height="41"></td>
                             </tr>
                         </table>
                     </td>
                     <td width="80%" valign="top">
                         <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" class="mar004">
                             <tr>
-                                <td><img src="images/index_04.gif" width="21" height="19"></td>
+                                <td><img src="../../images/index_04.gif" width="21" height="19"></td>
                             </tr>
                             <tr>
                                 <td height="501" valign="top" align="right">
-                                    <iframe name="mainframe" src="account/list.html" width="98%" height="500px"
+                                    <iframe name="mainframe" src="../../account/list.html" width="98%" height="500px"
                                             frameborder="0" scrolling="no"></iframe>
                                 </td>
                             </tr>

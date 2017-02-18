@@ -1,10 +1,9 @@
 package com.wdsunday.model.entity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.io.Serializable;
+
+import static javax.persistence.GenerationType.AUTO;
 
 
 /**
@@ -26,6 +25,7 @@ public class FamilyUser implements Serializable {
     public static final String COL_NAME_NICK_NAME = "user_nick_name";
 
     @Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
     @Column(name = COL_NAME_ID)
     private Long ID;
     @Column(name = COL_NAME_LOGIN_NAME,unique = true,nullable = false,length = 32)
@@ -78,5 +78,16 @@ public class FamilyUser implements Serializable {
 
     public void setUserTime(Long userTime) {
         this.userTime = userTime;
+    }
+
+    @Override
+    public String toString() {
+        return "FamilyUser{" +
+                "ID=" + ID +
+                ", userName='" + userName + '\'' +
+                ", userPwd='" + userPwd + '\'' +
+                ", userTime=" + userTime +
+                ", nickName='" + nickName + '\'' +
+                '}';
     }
 }

@@ -13,9 +13,9 @@
     <body>
 
         <form method="post" action="/login">
-            用户名：<input type="text" name="username"/>
+            用户名：<input type="text" name="userName"/>
             <br/>
-            密码：<input type="password" name="pd"/><br/>
+            密码：<input type="password" name="userPwd"/><br/>
             <input type="submit" name="登陆">
         </form>
 

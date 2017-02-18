@@ -33,4 +33,6 @@ public class BaseDaoImpl<T> extends HibernateDaoSupport implements BaseDao<T> {
         this.getHibernateTemplate().save(entity);
 
     }
+
+
 }

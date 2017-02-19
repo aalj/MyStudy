@@ -23,15 +23,16 @@ public class LoginController {
 
     @RequestMapping(value = "/login",method = RequestMethod.POST)
     @ResponseBody
-    public String login(@RequestBody FamilyUser userName ){
+//    public String login(@RequestBody FamilyUser userName ){
+    public String login(String JSON ){
         //如果是简单的数据，非json数据  直接使用对象就能够接受
         //如果使用的Json数据需要使用@RequestBody进行对象注解
-        System.out.println(userName.toString());
-        FamilyUser familyUser = usrService.signIn(userName);
+//        System.out.println(userName.toString());
+//        FamilyUser familyUser = usrService.signIn(userName);
 //        System.out.println(familyUser.toString());
 
 
-        return familyUser.toString();
+        return JSON;
     }
 
     @RequestMapping(value = "/demo",method = RequestMethod.GET)
